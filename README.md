@@ -2,7 +2,8 @@
 
 Projeto desenvolvido no curso de Full Stack Python da EBAC - Escola Britânica de Artes Criativas e Tecnologia.
 
-Esta lista de contatos possibilita a adicionar, editar e excluir contatos, foi construido com **React-Redux**, estilizado com **Styled-Components** e o roteamento de páginas com **React-Router-Dom** e **SPA**.
+Esta lista de contatos possibilita a adicionar, editar e excluir contatos, foi construído com **React-Redux**, estilizado com **Styled-Components**
+e o roteamento de páginas feito com **React-Router-Dom** para implementação de uma **SPA** (Single Page Application).
 
 ## 🚀 Começando
 
@@ -31,7 +32,7 @@ Para executar o projeto, execute o comando:
 
     npm start
 
-## 🛠️Ferramentas utilizadas para construção do Projeto
+## 🛠️Ferramentas utilizadas para construção do projeto
 
 * **React** - Biblioteca JavaScript para criar interfaces de usuário.
 * **React-Redux** - Biblioteca JavaScript para gerenciamento de estado em aplicações.
