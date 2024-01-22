@@ -4,7 +4,7 @@ import { Colors } from '../../styles/styles'
 export const Header = styled.header`
   display: flex;
   justify-content: space-between;
-  background-color: #34495e;
+  background-color: ${Colors.textMainColor};
   margin-top: 20px;
   margin-bottom: 16px;
   padding: 18px 16px;
@@ -12,13 +12,13 @@ export const Header = styled.header`
 
   h1 {
     font-size: 34px;
-    color: ${Colors.backgroundColor};
+    color: ${Colors.textWhiteColor};
     margin: auto 0;
   }
 
   i {
     font-size: 50px;
-    color: #fff;
+    color: ${Colors.textWhiteColor};
     padding: 0;
   }
 `

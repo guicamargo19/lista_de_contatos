@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
+import { Colors } from '../../styles/styles'
 
 export const FormContato = styled.form`
   display: flex;
@@ -8,7 +9,7 @@ export const FormContato = styled.form`
   margin: 0 auto;
 `
 export const Label = styled.label`
-  color: #1c1c1c;
+  color: ${Colors.textMainColor};
   font-weight: bold;
   font-size: 26px;
 `
@@ -18,8 +19,8 @@ export const Input = styled.input`
   padding: 6px 6px 4px 6px;
   margin: 4px 0px 12px 0px;
   font-size: 16px;
-  color: #34495e;
-  outline-color: #34495e;
+  color: ${Colors.textMainColor};
+  outline-color: ${Colors.textMainColor};
 `
 export const Options = styled.div`
   display: flex;
@@ -28,11 +29,11 @@ export const Options = styled.div`
 `
 
 export const Button = styled.button`
-  color: #fff;
+  color: ${Colors.textWhiteColor};
   font-weight: bold;
   font-size: 16px;
-  background-color: #16a085;
-  // padding: 8px;
+  background-color: ${Colors.cadastrarButtonBackground};
+  padding: 8px;
   border-radius: 6px;
   border: 2px solid transparent;
   margin-top: 6px;
@@ -41,14 +42,14 @@ export const Button = styled.button`
 
   &:hover {
     background-color: transparent;
-    color: #16a085;
+    color: ${Colors.cadastrarButtonBackground};
     border: 2px solid #16a085;
   }
 `
 
 export const LinkCancel = styled(Link)`
   display: block;
-  background-color: #c0392b;
+  background-color: ${Colors.cancelButtonBackground};
   border-radius: 6px;
   text-decoration: none;
   font-weight: bold;
@@ -56,7 +57,7 @@ export const LinkCancel = styled(Link)`
   margin-top: 6px;
   width: 100%;
   cursor: pointer;
-  color: #fff;
+  color: ${Colors.textWhiteColor};
   width: 100%;
   text-align: center;
   height: 100%;
@@ -66,16 +67,17 @@ export const LinkCancel = styled(Link)`
   &:hover {
     background-color: transparent;
     border: 2px solid #c0392b;
-    color: #c0392b;
+    color: ${Colors.cancelButtonBackground};
   }
 `
 export const TextArea = styled.textarea`
   resize: none;
   width: 100%;
   height: 90px;
+  font-size: 16px;
   border-radius: 6px;
   margin-bottom: 8px;
-  color: #34495e;
+  color: ${Colors.textMainColor};
   padding: 6px;
-  outline-color: #34495e;
+  outline-color: ${Colors.textMainColor};
 `

@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 
 import styled from 'styled-components'
+import { Colors } from '../../styles/styles'
 
 export const Adicionar = styled(Link)`
   transition: 0.3s;
@@ -8,14 +9,14 @@ export const Adicionar = styled(Link)`
   height: 92px;
   width: 92px;
   border-radius: 12px;
-  background-color: #16a085;
-  color: #fff;
+  background-color: ${Colors.addButtonBackground};
+  color: ${Colors.textWhiteColor};
   position: fixed;
   right: 290px;
   top: 20px;
   align-items: center;
   justify-content: center;
-  font-size: 26px;
+  font-size: 40px;
   font-weight: bold;
   text-decoration: none;
   padding: 16px;
@@ -25,6 +26,6 @@ export const Adicionar = styled(Link)`
   &:hover {
     background-color: transparent;
     border: 2px solid #16a085;
-    color: #16a085;
+    color: ${Colors.addButtonBackground};
   }
 `

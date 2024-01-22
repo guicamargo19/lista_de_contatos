@@ -2,10 +2,16 @@ import { createGlobalStyle } from 'styled-components'
 import styled from 'styled-components'
 
 export const Colors = {
-  textColor: '#000',
-  backgroundColor: '#f2f8fa',
-  mainColor: '1e90ff',
-  secondaryColor: '#465a0f'
+  textWhiteColor: '#fff',
+  textMainColor: '#34495e',
+  cardBackground: '#ecf0f1',
+  addButtonBackground: '#16a085',
+  removeButtonBackground: '#c0392b',
+  editButtonBackground: '#2980b9',
+  saveButtonBackground: '#27ae60',
+  cancelButtonBackground: '#c0392b',
+  cadastrarButtonBackground: '#16a085',
+  cancelEditButtonBackground: '#7f8c8d'
 }
 
 export const GlobalStyle = createGlobalStyle`

@@ -1,11 +1,13 @@
 import styled from 'styled-components'
+import { Colors } from '../../styles/styles'
 
 export const Footer = styled.footer`
   max-width: 640px;
   background-color: transparent;
   text-align: center;
-  color: #34495e;
+  color: ${Colors.textMainColor};
   margin: 0 auto;
+  margin-top: 16px;
 
   ul {
     display: flex;
@@ -17,7 +19,7 @@ export const Footer = styled.footer`
       font-size: 26px;
 
       a {
-        color: #34495e;
+        color: ${Colors.textMainColor};
       }
     }
   }

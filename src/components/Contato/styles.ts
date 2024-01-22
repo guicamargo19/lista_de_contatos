@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { Colors } from '../../styles/styles'
 
 export const Infos = styled.div`
   display: flex;
@@ -7,7 +8,7 @@ export const Infos = styled.div`
   justify-content: center;
   margin: 0 auto;
   align-items: center;
-  background-color: #ecf0f1;
+  background-color: ${Colors.cardBackground};
   border-radius: 16px;
   padding: 10px;
   margin-bottom: 20px;
@@ -20,7 +21,7 @@ export const DadosContato = styled.div`
   width: 100%;
 
   h1 {
-    color: #2c3e50;
+    color: ${Colors.textMainColor};
     margin-bottom: 8px;
     font-weight: normal;
     padding: 2px;
@@ -31,7 +32,7 @@ export const DadosContato = styled.div`
     font-size: 18px;
     margin-bottom: 8px;
     margin-left: 2px;
-    color: #2c3e50;
+    color: ${Colors.textMainColor};
     padding: 2px 0;
     border: 1px solid transparent;
   }
@@ -41,8 +42,8 @@ export const InputInfos = styled.div`
   display: flex;
   font-size: 18px;
   align-items: center;
-  color: #2c3e50;
-  outline-color: #2c3e50;
+  color: ${Colors.textMainColor};
+  outline-color: ${Colors.textMainColor};
 
   input {
     width: 100%;
@@ -55,9 +56,9 @@ export const InputContato = styled.input`
   border-radius: 6px;
   border: 1px solid #bdc3c7;
   margin-bottom: 8px;
-  color: #2c3e50;
-  outline-color: #2c3e50;
-  background-color: #ecf0f1;
+  color: ${Colors.textMainColor};
+  outline-color: ${Colors.textMainColor};
+  background-color: ${Colors.cardBackground};
 `
 
 export const InputNome = styled(InputContato)`
@@ -94,47 +95,47 @@ export const StyledButtonEdit = styled.button`
 export const SalvarButton = styled(StyledButtonEdit)`
   background-color: transparent;
   border: 2px solid #27ae60;
-  color: #27ae60;
+  color: ${Colors.saveButtonBackground};
 
   &:hover {
-    background-color: #27ae60;
+    background-color: ${Colors.saveButtonBackground};
     border: 2px solid #27ae60;
-    color: #fff;
+    color: ${Colors.textWhiteColor};
   }
 `
 
 export const CancelarButton = styled(StyledButtonEdit)`
-  background-color: #7f8c8d;
+  background-color: ${Colors.cancelEditButtonBackground};
   border: 2px solid #7f8c8d;
-  color: #fff;
+  color: ${Colors.textWhiteColor};
 
   &:hover {
     background-color: transparent;
     border: 2px solid #7f8c8d;
-    color: #7f8c8d;
+    color: ${Colors.cancelEditButtonBackground};
   }
 `
 
 export const EditarButton = styled(StyledButtonEdit)`
   background-color: transparent;
   border: 2px solid #2980b9;
-  color: #2980b9;
+  color: ${Colors.editButtonBackground};
 
   &:hover {
-    background-color: #2980b9;
+    background-color: ${Colors.editButtonBackground};
     border: 2px solid #2980b9;
-    color: #fff;
+    color: ${Colors.textWhiteColor};
   }
 `
 
 export const RemoveButton = styled(StyledButtonEdit)`
-  background-color: #c0392b;
+  background-color: ${Colors.removeButtonBackground};
   border: 2px solid #c0392b;
-  color: #fff;
+  color: ${Colors.textWhiteColor};
 
   &:hover {
     background-color: transparent;
     border: 2px solid #c0392b;
-    color: #c0392b;
+    color: ${Colors.removeButtonBackground};
   }
 `
