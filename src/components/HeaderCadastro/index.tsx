@@ -1,11 +1,10 @@
 import * as S from './styles'
-import iconLista from '../../assets/lista-contatos-icon.png'
 
 const Header = () => {
   return (
     <S.Header>
       <h1>Novo Contato</h1>
-      <img src={iconLista} alt="" />
+      <i className="bi bi-person-plus-fill"></i>
     </S.Header>
   )
 }

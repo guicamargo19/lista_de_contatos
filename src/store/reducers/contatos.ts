@@ -11,13 +11,43 @@ const initialState: ContatosState = {
       nome: 'Gabrielle Tomoda',
       telefone: '(17) 98776-9900',
       email: 'gabrielle@gmail.com',
+      info: 'Esposa',
       id: 1
     },
     {
       nome: 'Guilherme Camargo',
       telefone: '(17) 998877-5544',
       email: 'camargo@gmail.com',
+      info: 'celular novo',
       id: 2
+    },
+    {
+      nome: 'Cristiano Ronaldo',
+      telefone: '(17) 98877-4311',
+      email: 'cr7@gmail.com',
+      info: 'Melhor do mundo',
+      id: 3
+    },
+    {
+      nome: 'Giselle Tomoda',
+      telefone: '(18) 988777-1233',
+      email: 'giselle@gmail.com',
+      info: 'Cunhada',
+      id: 4
+    },
+    {
+      nome: 'Douglas',
+      telefone: '(17) 98776-1235',
+      email: 'cabelos@gmail.com',
+      info: 'Cabeleireiro',
+      id: 5
+    },
+    {
+      nome: 'Sonia',
+      telefone: '(11) 997755-0077',
+      email: 'sonia@predio.com',
+      info: 'Zeladora',
+      id: 6
     }
   ]
 }

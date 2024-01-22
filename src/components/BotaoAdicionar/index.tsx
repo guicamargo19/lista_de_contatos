@@ -1,5 +1,9 @@
-import { Circulo } from './styles'
+import { Adicionar } from './styles'
 
-const BotaoAdicionar = () => <Circulo to="/novo">+ Adicionar</Circulo>
+const BotaoAdicionar = () => (
+  <Adicionar to="/novo">
+    <i className="bi bi-person-plus-fill"></i>
+  </Adicionar>
+)
 
 export default BotaoAdicionar

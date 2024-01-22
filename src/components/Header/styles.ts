@@ -2,13 +2,13 @@ import styled from 'styled-components'
 import { Colors } from '../../styles/styles'
 
 export const Header = styled.header`
-  background-color: gray;
-  margin-top: 16px;
-  margin-bottom: 16px;
-  padding: 26px 48px 26px 48px;
-  border-radius: 6px;
   display: flex;
   justify-content: space-between;
+  background-color: #34495e;
+  margin-top: 20px;
+  margin-bottom: 16px;
+  padding: 18px 16px;
+  border-radius: 12px;
 
   h1 {
     font-size: 34px;
@@ -16,10 +16,9 @@ export const Header = styled.header`
     margin: auto 0;
   }
 
-  img {
-    width: 50px;
-    margin: 0;
-    filter: invert(100%);
+  i {
+    font-size: 50px;
+    color: #fff;
     padding: 0;
   }
 `

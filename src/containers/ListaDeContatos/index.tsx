@@ -13,6 +13,7 @@ const ListaDeContatos = () => {
             nome={c.nome}
             telefone={c.telefone}
             email={c.email}
+            info={c.info}
             id={c.id}
           />
         </li>

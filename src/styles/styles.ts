@@ -15,6 +15,7 @@ export const GlobalStyle = createGlobalStyle`
   list-style: none;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -23,7 +24,10 @@ body {
 `
 
 export const Container = styled.main`
-  padding: 0 140px;
+  max-width: 640px;
+  width: 100%;
+  margin: 0 auto;
   height: 100vh;
   overflow-y: scroll;
+  overscroll-behavior-y: auto;
 `

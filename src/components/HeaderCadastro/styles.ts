@@ -1,23 +1,21 @@
 import styled from 'styled-components'
-import { Colors } from '../../styles/styles'
 
 export const Header = styled.header`
-  background-color: gray;
-  margin-top: 16px;
-  margin-bottom: 16px;
-  padding: 30px 48px;
-  border-radius: 8px;
   display: flex;
   justify-content: space-between;
+  background-color: #34495e;
+  margin-top: 20px;
+  margin-bottom: 16px;
+  padding: 18px 16px;
+  border-radius: 12px;
 
   h1 {
-    color: ${Colors.backgroundColor};
+    color: #fff;
     margin: auto 0;
   }
 
-  img {
-    width: 50px;
-    margin: 0;
-    padding: 0;
+  i {
+    font-size: 40px;
+    color: #fff;
   }
 `
