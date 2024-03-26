@@ -2,8 +2,9 @@
 
 Projeto desenvolvido no curso de Full Stack Python da EBAC - Escola Britânica de Artes Criativas e Tecnologia.
 
-Esta lista de contatos possibilita a adicionar, editar e excluir contatos, foi construído com **React-Redux**, estilizado com **Styled-Components**
-e o roteamento de páginas feito com **React-Router-Dom** para implementação de uma **SPA** (Single Page Application).
+Esta lista de contatos possibilita a adicionar, editar e excluir contatos, foi construído com **ReactJS** com **TypeScript**,
+**Redux** para gerenciar estado da aplicação, estilizado com **Styled Components** e o roteamento de páginas feito com
+**React Router Dom** para implementação de uma **SPA** (Single Page Application).
 
 ## 🚀 Começando
 
@@ -30,14 +31,16 @@ Siga estas etapas a seguir para configurar o ambiente de desenvolvimento:
 
 Para executar o projeto, execute o comando:
 
-    npm start
+  **``npm start``**
 
-## 🛠️Ferramentas utilizadas para construção do projeto
+## 🛠️ Ferramentas utilizadas para construção do projeto
 
-* **React** - Biblioteca JavaScript para criar interfaces de usuário.
-* **React-Redux** - Biblioteca JavaScript para gerenciamento de estado em aplicações.
+* **ReactJS** - Biblioteca front-end JavaScript de código aberto com foco em criar interfaces de usuário em páginas web.
+* **Redux** - É uma biblioteca JavaScript de código aberto para gerenciar o estado do aplicativo.
 * **React-Router-Dom** - Biblioteca JavaScript que fornece navegação e roteamento para aplicações React.
-* **Styled Components** - Biblioteca para estilizar componentes React.
+* **TypeScript** - Linguagem OpenSource desenvolvida pela Microsoft. É um superconjunto sintático estrito de JavaScript e adiciona tipagem estática opcional à linguagem.
+* **Styled Components** - Uma biblioteca que nos permite escrever CSS em JavaScript enquanto construímos componentes customizados em ReactJS.
+* **ESLint** - Linter, uma ferramenta de análise estática, para as linguagens Javascript e Typescript, sendo o mais popular do mundo para tais linguagens.
 
 ## ✒️ Autor
 
