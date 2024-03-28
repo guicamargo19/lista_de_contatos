@@ -20,7 +20,7 @@ export const GlobalStyle = createGlobalStyle`
   padding: 0;
   list-style: none;
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+  font-family: Gloock, serif;
   scroll-behavior: smooth;
 }
 

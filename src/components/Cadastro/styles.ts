@@ -10,7 +10,7 @@ export const FormContato = styled.form`
 `
 export const Label = styled.label`
   color: ${Colors.textMainColor};
-  font-weight: bold;
+  font-weight: normal;
   font-size: 26px;
 `
 export const Input = styled.input`
@@ -30,11 +30,11 @@ export const Options = styled.div`
 
 export const Button = styled.button`
   color: ${Colors.textWhiteColor};
-  font-weight: bold;
+  font-weight: normal;
   font-size: 16px;
   background-color: ${Colors.cadastrarButtonBackground};
   padding: 8px;
-  border-radius: 6px;
+  border-radius: 4px;
   border: 2px solid transparent;
   margin-top: 6px;
   width: 100%;
@@ -50,9 +50,9 @@ export const Button = styled.button`
 export const LinkCancel = styled(Link)`
   display: block;
   background-color: ${Colors.cancelButtonBackground};
-  border-radius: 6px;
+  border-radius: 4px;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: normal;
   font-size: 16px;
   margin-top: 6px;
   width: 100%;
@@ -75,7 +75,7 @@ export const TextArea = styled.textarea`
   width: 100%;
   height: 90px;
   font-size: 16px;
-  border-radius: 6px;
+  border-radius: 4px;
   margin-bottom: 8px;
   color: ${Colors.textMainColor};
   padding: 6px;

@@ -9,10 +9,10 @@ export const Infos = styled.div`
   margin: 0 auto;
   align-items: center;
   background-color: ${Colors.cardBackground};
-  border-radius: 16px;
-  padding: 10px;
+  border-radius: 8px;
+  padding: 12px;
   margin-bottom: 20px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.45);
 `
 
 export const DadosContato = styled.div`
@@ -31,10 +31,14 @@ export const DadosContato = styled.div`
   p {
     font-size: 18px;
     margin-bottom: 8px;
-    margin-left: 2px;
+    margin-left: 12px;
     color: ${Colors.textMainColor};
-    padding: 2px 0;
+    padding: 4px 4px;
     border: 1px solid transparent;
+  }
+
+  i {
+    padding-right: 10px;
   }
 `
 
@@ -53,7 +57,7 @@ export const InputInfos = styled.div`
 export const InputContato = styled.input`
   font-size: 18px;
   padding: 2px;
-  border-radius: 6px;
+  border-radius: 4px;
   border: 1px solid #bdc3c7;
   margin-bottom: 8px;
   color: ${Colors.textMainColor};
@@ -84,10 +88,10 @@ export const Edicao = styled.div`
 export const StyledButtonEdit = styled.button`
   padding: 4px 14px;
   width: 100px;
-  border-radius: 6px;
+  border-radius: 4px;
   cursor: pointer;
   border: none;
-  font-weight: bold;
+  font-weight: normal;
   font-size: 16px;
   transition: 0.3s;
 `

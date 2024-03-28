@@ -16,7 +16,7 @@ const Footer = () => {
             </a>
           </li>
         </ul>
-        <p>® 2024 Guilherme Camargo. Todos os direitos reservados.</p>
+        <p>2024 - &copy; Guilherme Camargo. Todos os direitos reservados.</p>
         <p>
           Página desenvolvida no curso de Full Stack Python na EBAC - Escola
           Britânica de Artes Criativas e Tecnologia.

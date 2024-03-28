@@ -8,7 +8,7 @@ export const Header = styled.header`
   margin-top: 20px;
   margin-bottom: 16px;
   padding: 18px 16px;
-  border-radius: 12px;
+  border-radius: 6px;
 
   h1 {
     color: ${Colors.textWhiteColor};

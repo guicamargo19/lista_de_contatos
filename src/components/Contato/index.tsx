@@ -83,9 +83,18 @@ const Contato = ({
         ) : (
           <>
             <h1>{nome}</h1>
-            <p>{telefone}</p>
-            <p>{email}</p>
-            <p>{info}</p>
+            <p>
+              <i className="bi bi-telephone"></i>
+              {telefone}
+            </p>
+            <p>
+              <i className="bi bi-envelope"></i>
+              {email}
+            </p>
+            <p>
+              <i className="bi bi-info-square"></i>
+              {info}
+            </p>
           </>
         )}
         <S.Edicao>

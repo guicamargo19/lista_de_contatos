@@ -1,10 +1,12 @@
 # Lista de Contatos
 
-Projeto desenvolvido no curso de Full Stack Python da EBAC - Escola Britânica de Artes Criativas e Tecnologia.
+<img style="width: 90%" src="public/contatos.png">
 
 Esta lista de contatos possibilita a adicionar, editar e excluir contatos, foi construído com **ReactJS** com **TypeScript**,
 **Redux** para gerenciar estado da aplicação, estilizado com **Styled Components** e o roteamento de páginas feito com
 **React Router Dom** para implementação de uma **SPA** (Single Page Application).
+
+Projeto desenvolvido no curso de Full Stack Python da EBAC - Escola Britânica de Artes Criativas e Tecnologia.
 
 ## 🚀 Começando
 
